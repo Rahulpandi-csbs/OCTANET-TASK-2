@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+.hero {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+.box-contain{
+    width: 500px;
+    margin: 5px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.box{
+    border-radius: 10px;
+    background-color: aqua;
+    width: 400px;
+    height:200px;
+}
+
+.all-box{
+    display: flex;
+    justify-content: center;
+}
+.box:hover{
+    background-color: red;
+    opacity: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.10s linear;
+    transform: scale(1.2);
+}
+
+.imgs-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgs{
+    background-color: #666;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+
+
